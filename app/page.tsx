@@ -22,7 +22,7 @@ export default function Home() {
         Which will show up as:
         <p>
           <Image
-            src="/medium-banner.svg"
+            src="/resources/medium-banner.svg"
             alt="medium banner for installing an ad blocker"
             width={300}
             height={250}
