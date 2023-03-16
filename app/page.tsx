@@ -21,8 +21,9 @@ export default function Home() {
       <div>
         <strong>1. For User Safety</strong> Google (and others) have done far
         too little to stop malicious advertising. This has been a gold mine for
-        all sorts of malicious actors. Google then expects you to play
-        wack-a-mole reporting the small subset of malicious ads you can find.
+        all sorts of malicious actors who peddle anything from malware to
+        hosting phishing sites. Google then expects you to play wack-a-mole
+        reporting the small subset of malicious ads you can find.
       </div>
       <div>
         <strong>2. Stop Rent Seeking</strong> Google forces companies to engage
