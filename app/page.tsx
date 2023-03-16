@@ -9,6 +9,9 @@ export default function Home() {
     <main className={styles.main}>
       <h1>AdBlockerAds.com</h1>
       <hr />
+      <br />
+      <br />
+
       <div>
         <h3>
           Advertising on the internet has become a hugely negative force for
@@ -30,11 +33,17 @@ export default function Home() {
         </code>{" "}
         -Google
       </div>
+      <br />
+      <br />
+
       <h2>
         It's time to take action and protect your users. Showing ads for
         adblockers (don't worry, users with adblockers won't see these ads!)
       </h2>
       <hr />
+      <br />
+      <br />
+
       <div className={styles.description}>
         Add a medium-size banner:
         <p>
