@@ -44,6 +44,28 @@ export default function Home() {
       <hr />
       <br />
       <br />
+      <div className={styles.description}>
+        Add a leaderboard ad:
+        <p>
+          <code className={styles.code}>
+            {`<a href="https://adblockerads.com/install">
+  <img src="https://ads.adblockerads.com/banner.png" alt="install an ad blocker" />
+</a>`}
+          </code>
+        </p>
+      </div>
+      <div className={styles.description}>
+        Which will show up as:
+        <p>
+          <Image
+            src="/resources/banner.png"
+            alt="medium banner for installing an ad blocker"
+            width={728}
+            height={90}
+          />
+          (or nothing if they have an ad blocker)
+        </p>
+      </div>
 
       <div className={styles.description}>
         Add a medium-size banner:
@@ -64,12 +86,6 @@ export default function Home() {
             width={300}
             height={250}
           />
-          <a href="https://adblockerads.com/install">
-            <img
-              src="https://ads.adblockerads.com/medium-banner.svg"
-              alt="install an ad blocker"
-            />
-          </a>
           (or nothing if they have an ad blocker)
         </p>
       </div>
